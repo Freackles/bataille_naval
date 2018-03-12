@@ -1,5 +1,6 @@
 PROGRAM bataille_naval;
 //But: recréer le jeu de la baitaille navale en pascal
+//Principe: Voir ci-dessus
 //Entrées: Coordonée de bateau/tir
 //Sorties: affichage de la grille, annonce du perdant, annonce de bateau coulé/touché,
 
@@ -15,7 +16,7 @@ type pos=RECORD
     x,y: INTEGER;
 end;
 
-type boat=RECORD;
+type boat=RECORD
     cases: ARRAY[1..5] of pos;
     taille: INTEGER;
 end;
